@@ -138,3 +138,4 @@
 /Users/cristiancruz/RiderProjects/Mission11_Cruz/Mission11_Cruz/obj/Debug/net8.0/Mission11_Cruz.pdb
 /Users/cristiancruz/RiderProjects/Mission11_Cruz/Mission11_Cruz/obj/Debug/net8.0/Mission11_Cruz.genruntimeconfig.cache
 /Users/cristiancruz/RiderProjects/Mission11_Cruz/Mission11_Cruz/obj/Debug/net8.0/ref/Mission11_Cruz.dll
+/Users/cristiancruz/RiderProjects/Mission11_Cruz/Mission11_Cruz/obj/Debug/net8.0/Mission11_Cruz.sourcelink.json
