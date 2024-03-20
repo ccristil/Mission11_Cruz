@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model BookListViewModel;
+
+<div>
+    <h1 class="display-2">Welcome to the Bookstore📚</h1>
+</div>
+
+<div class="container">
+    @foreach (Book b in Model.Books)
+    {
+        <partial name="BookSummary" model="b" />
+    }
+</div>
+
+<div page-model="@Model.PaginationInfo" page-action="Index" page-class="btn" page-classes-enabled="true"
+     page-class-normal="btn-outline-light" page-class-selected="btn-primary" class="btn-group pull-right m-1">
+    
+</div>

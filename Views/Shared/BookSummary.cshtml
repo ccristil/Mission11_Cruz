@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Book;
+
+ <div class="card m-3">
+            <h4 class="card-header">@Model.Title</h4>
+            <div class="card-body">
+                <ul class="list-group-flush">
+                    <li class="list-group-item">Author: @Model.Author</li>
+                    <li class="list-group-item">Publisher: @Model.Publisher</li>
+                    <li class="list-group-item">ISBN: @Model.Isbn</li>
+                    <li class="list-group-item">Category: @Model.Category</li>
+                    <li class="list-group-item">Pages: @Model.PageCount</li>
+                    <li class="list-group-item">Price: $@Model.Price</li>
+                </ul>
+            </div>
+            </div> 
